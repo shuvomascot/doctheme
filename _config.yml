@@ -116,7 +116,7 @@ callouts:
     color: green
   note:
     title: Note
-    color: orange
+    color: purple
   warning:
     title: Warning
     color: red
