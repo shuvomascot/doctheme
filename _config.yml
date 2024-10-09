@@ -1,8 +1,8 @@
-title: Exsited Documentation
-description: Exsited PIP Documentation
+title: Exsited SDK
+description: Exsited Python Documentation
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://shuvomascot.github.io/doctheme/
 
 permalink: pretty
 
@@ -67,11 +67,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
+  "Exsited on GitHub":
+    - "https://github.com/exsited/exsited-python"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
