@@ -4,10 +4,6 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
-
 permalink: pretty
 
 defaults:
@@ -18,7 +14,7 @@ defaults:
       layout: "default"
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+# logo: "/assets/images/just-the-docs.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
