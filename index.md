@@ -20,7 +20,7 @@ To start using the **Your Python SDK Name**, follow these steps:
 
 1. **Install the SDK**:
    You can install the SDK via pip:
-   ```bash
+```bash
    from your_sdk import YourSDK
 
 # Initialize the SDK
@@ -30,4 +30,4 @@ sdk = YourSDK(api_key='your_api_key')
 response = sdk.get_data(param1='value1')
 print(response)
 
-   ```
+```
