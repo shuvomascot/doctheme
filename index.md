@@ -32,7 +32,6 @@ response = sdk.get_data(param1='value1')
 print(response)
 
 ```
-
 <details>
   <summary>Click to expand code snippets</summary>
 
@@ -75,4 +74,3 @@ print(response)
   </details>
 
 </details>
-
