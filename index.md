@@ -32,45 +32,32 @@ response = sdk.get_data(param1='value1')
 print(response)
 
 ```
+
 <details>
-  <summary>Click to expand code snippets</summary>
+  <summary>Python Code</summary>
 
-  <details>
-    <summary>Python Code</summary>
+  ```python
+  def hello_world():
+      print("Hello, world!")
 
-```python
-    def hello_world():
-        print("Hello, world!")
-
-    hello_world()
-```
-
-  </details>
-
-  <details>
-    <summary>JavaScript Code</summary>
+  hello_world()
+  ```
+</details> <details> <summary>JavaScript Code</summary>
 
 ```javascript
-    function helloWorld() {
-        console.log("Hello, world!");
-    }
+function helloWorld() {
+    console.log("Hello, world!");
+}
 
-    helloWorld();
+helloWorld();
 ```
 
-  </details>
-
-  <details>
-    <summary>Java Code</summary>
-
+</details> <details> <summary>Java Code</summary>
 ```java
-    public class HelloWorld {
-        public static void main(String[] args) {
-            System.out.println("Hello, world!");
-        }
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
     }
+}
 ```
-
-  </details>
-
-</details>
+</details> 
