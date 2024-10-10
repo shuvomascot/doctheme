@@ -42,7 +42,9 @@ print(response)
 
   hello_world()
   ```
-</details> <details> <summary>JavaScript Code</summary>
+</details> 
+
+<details> <summary>JavaScript Code</summary>
 
 ```javascript
 function helloWorld() {
@@ -52,7 +54,10 @@ function helloWorld() {
 helloWorld();
 ```
 
-</details> <details> <summary>Java Code</summary>
+</details> 
+
+<details> <summary>Java Code</summary>
+
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -60,4 +65,5 @@ public class HelloWorld {
     }
 }
 ```
+
 </details> 
