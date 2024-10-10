@@ -35,8 +35,7 @@ print(response)
 
 # Code Snippets
 
-<details>
-  <summary>Python Code</summary>
+
 
 ```python
   def hello_world():
@@ -44,9 +43,6 @@ print(response)
 
   hello_world()
 ```
-</details> 
-
-<details> <summary>JavaScript Code</summary>
 
 ```javascript
 function helloWorld() {
@@ -55,9 +51,7 @@ function helloWorld() {
 
 helloWorld();
 ```
-</details> 
 
-<details> <summary>Java Code</summary>
 
 ```java
 public class HelloWorld {
@@ -67,4 +61,3 @@ public class HelloWorld {
 }
 ```
 
-</details>
