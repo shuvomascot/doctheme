@@ -14,7 +14,7 @@
 {%- endcomment -%}
 
 {% for file in site.static_files %}
-  {% if file.path == site.favicon_ico or file.path == 'docs/assets/images/favicon.ico' %}
+  {% if file.path == site.favicon_ico or file.path == '/favicon.ico' %}
     {% assign favicon = true %}
   {% endif %}
 {% endfor %}
