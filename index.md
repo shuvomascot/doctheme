@@ -39,38 +39,38 @@ print(response)
   <details>
     <summary>Python Code</summary>
 
-    ```python
+```python
     def hello_world():
         print("Hello, world!")
 
     hello_world()
-    ```
+```
 
   </details>
 
   <details>
     <summary>JavaScript Code</summary>
 
-    ```javascript
+```javascript
     function helloWorld() {
         console.log("Hello, world!");
     }
 
     helloWorld();
-    ```
+```
 
   </details>
 
   <details>
     <summary>Java Code</summary>
 
-    ```java
+```java
     public class HelloWorld {
         public static void main(String[] args) {
             System.out.println("Hello, world!");
         }
     }
-    ```
+```
 
   </details>
 
