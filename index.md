@@ -33,50 +33,38 @@ print(response)
 
 ```
 
+# Code Snippets
+
 <details>
   <summary>Python Code</summary>
 
-```bash
-from your_sdk import YourSDK
+```python
+  def hello_world():
+      print("Hello, world!")
 
-# Initialize the SDK
-sdk = YourSDK(api_key='your_api_key')
-
-# Make a sample request
-response = sdk.get_data(param1='value1')
-print(response)
-
+  hello_world()
 ```
 </details> 
 
 <details> <summary>JavaScript Code</summary>
 
-```bash
-from your_sdk import YourSDK
+```javascript
+function helloWorld() {
+    console.log("Hello, world!");
+}
 
-# Initialize the SDK
-sdk = YourSDK(api_key='your_api_key')
-
-# Make a sample request
-response = sdk.get_data(param1='value1')
-print(response)
-
+helloWorld();
 ```
-
 </details> 
 
 <details> <summary>Java Code</summary>
 
-```bash
-from your_sdk import YourSDK
-
-# Initialize the SDK
-sdk = YourSDK(api_key='your_api_key')
-
-# Make a sample request
-response = sdk.get_data(param1='value1')
-print(response)
-
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
 ```
 
-</details> 
+</details>
