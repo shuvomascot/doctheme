@@ -38,7 +38,7 @@ print(response)
 <details>
 <summary>Python</summary>
 
-```bash
+```python
 def hello():
     print("Hello, World!")
 ```
@@ -46,7 +46,7 @@ def hello():
 </details> <details> <summary>PHP</summary>
 
 
-```bash
+```php
 <?php
 echo "Hello, World!";
 ?>
