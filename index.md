@@ -38,15 +38,18 @@ print(response)
 <details>
 <summary>Python</summary>
 
-```python
+```bash
 def hello():
     print("Hello, World!")
 ```
+
 </details> <details> <summary>PHP</summary>
 
-```
+
+```bash
 <?php
 echo "Hello, World!";
 ?>
 ```
+
 </details>
