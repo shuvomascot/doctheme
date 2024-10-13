@@ -33,31 +33,20 @@ print(response)
 
 ```
 
-# Code Snippets
+## Choose Language:
 
-
+<details>
+<summary>Python</summary>
 
 ```python
-  def hello_world():
-      print("Hello, world!")
-
-  hello_world()
+def hello():
+    print("Hello, World!")
 ```
+</details> <details> <summary>PHP</summary>
 
-```javascript
-function helloWorld() {
-    console.log("Hello, world!");
-}
-
-helloWorld();
 ```
-
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
+<?php
+echo "Hello, World!";
+?>
 ```
-
+</details>
