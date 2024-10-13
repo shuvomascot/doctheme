@@ -34,8 +34,6 @@ print(response)
 ```
 
 ## Choose Language:
-
-<details>
 <summary>Python</summary>
 
 ```python
@@ -43,7 +41,7 @@ def hello():
     print("Hello, World!")
 ```
 
-</details> <details> <summary>PHP</summary>
+<summary>PHP</summary>
 
 
 ```php
@@ -51,5 +49,3 @@ def hello():
 echo "Hello, World!";
 ?>
 ```
-
-</details>
