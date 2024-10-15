@@ -50,19 +50,17 @@ echo "Hello, World!";
 ?>
 ```
 
+Here a custom tab component from shadcn ui is used.
 <Tabs defaultValue="js" className="pt-5 pb-1">
-  <TabsList>
+  <TabsList className="">
     <TabsTrigger value="js">layout.jsx</TabsTrigger>
     <TabsTrigger value="ts">layout.tsx</TabsTrigger>
-    <TabsTrigger value="py">config.py</TabsTrigger>
-    <TabsTrigger value="php">config.php</TabsTrigger>
+<TabsTrigger value="python">config.py</TabsTrigger>
   </TabsList>
-
   <TabsContent value="js">
-    <pre>
-      <code>
-        {`import ThemeProvider from './theme-provider'
-
+  ```jsx {7} showLineNumbers
+import ThemeProvider from './theme-provider'
+ 
 export default function RootLayout({ children }) {
   return (
     <html>
@@ -70,17 +68,13 @@ export default function RootLayout({ children }) {
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
-  )
-}`}
-      </code>
-    </pre>
+  )}
+````
   </TabsContent>
-
   <TabsContent value="ts">
-    <pre>
-      <code>
-        {`import ThemeProvider from './theme-provider'
-
+```tsx {11} showLineNumbers
+import ThemeProvider from './theme-provider'
+ 
 export default function RootLayout({
   children,
 }: {
@@ -93,30 +87,24 @@ export default function RootLayout({
       </body>
     </html>
   )
-}`}
-      </code>
-    </pre>
+}
+```
   </TabsContent>
+ <TabsContent value="python">
+  ```python {8} showLineNumbers
+import ThemeProvider from './theme-provider'
+ 
+from your_sdk import YourSDK
 
-  <TabsContent value="py">
-    <pre>
-      <code>
-        {`# config.py
-DATABASE_URI = 'sqlite:///mydatabase.db'
-SECRET_KEY = 'your_secret_key'
-DEBUG = True`}
-      </code>
-    </pre>
+# Initialize the SDK
+sdk = YourSDK(api_key='your_api_key')
+
+# Make a sample request
+response = sdk.get_data(param1='value1')
+print(response)
+````
   </TabsContent>
-
-  <TabsContent value="php">
-    <pre>
-      <code>
-        {`<?php
-// config.php
-define('DATABASE_URI', 'sqlite:///mydatabase.db');
-define('SECRET_KEY', 'your_secret_key');
-define('DEBUG', true);`}
+</Tabs>
       </code>
     </pre>
   </TabsContent>
