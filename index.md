@@ -49,3 +49,75 @@ def hello():
 echo "Hello, World!";
 ?>
 ```
+
+<Tabs defaultValue="js" className="pt-5 pb-1">
+  <TabsList>
+    <TabsTrigger value="js">layout.jsx</TabsTrigger>
+    <TabsTrigger value="ts">layout.tsx</TabsTrigger>
+    <TabsTrigger value="py">config.py</TabsTrigger>
+    <TabsTrigger value="php">config.php</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="js">
+    <pre>
+      <code>
+        {`import ThemeProvider from './theme-provider'
+
+export default function RootLayout({ children }) {
+  return (
+    <html>
+      <body className="container">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  )
+}`}
+      </code>
+    </pre>
+  </TabsContent>
+
+  <TabsContent value="ts">
+    <pre>
+      <code>
+        {`import ThemeProvider from './theme-provider'
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html>
+      <body className="container">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  )
+}`}
+      </code>
+    </pre>
+  </TabsContent>
+
+  <TabsContent value="py">
+    <pre>
+      <code>
+        {`# config.py
+DATABASE_URI = 'sqlite:///mydatabase.db'
+SECRET_KEY = 'your_secret_key'
+DEBUG = True`}
+      </code>
+    </pre>
+  </TabsContent>
+
+  <TabsContent value="php">
+    <pre>
+      <code>
+        {`<?php
+// config.php
+define('DATABASE_URI', 'sqlite:///mydatabase.db');
+define('SECRET_KEY', 'your_secret_key');
+define('DEBUG', true);`}
+      </code>
+    </pre>
+  </TabsContent>
+</Tabs>
